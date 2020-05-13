@@ -33,6 +33,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "ip-regex": "^4.1.0",
-    "sanitize-html": "^1.23.0"
+    "sanitize-html": "^1.23.0",
+    "validator": "^13.0.0"
   }
 }
