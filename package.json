@@ -32,7 +32,9 @@
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
     "ip-regex": "^4.1.0",
+    "mongoose": "^5.9.13",
     "sanitize-html": "^1.23.0",
     "validator": "^13.0.0"
   }

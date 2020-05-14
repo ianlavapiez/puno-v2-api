@@ -11,3 +11,9 @@ const buildMakeSource = require('./source')
 
 const makeSource = buildMakeSource({ isValidIp })
 const makeUser = buildMakeUser({ sha256, sanitize, makeSource, isValidEmail, hashPassword })
+
+const models = Object.freeze({
+  makeUser,
+})
+
+module.exports = models
