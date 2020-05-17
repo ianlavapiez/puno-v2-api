@@ -2,7 +2,7 @@
   "name": "puno-v2-api",
   "version": "1.0.0",
   "description": "A backend project for Puno.",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/server.js"
