@@ -76,6 +76,13 @@ app.use(xss())
 app.use(compression())
 
 // 3) ROUTES
+app.get('/', (req, res, next) => {
+  res.statusCode = 200
+  res.json({
+    message: 'This is a puno API v2.',
+  })
+})
+
 app.use('/api/v1/users', userRouter)
 app.use('/api/v1/products', productRouter)
 app.use('/api/v1/transactions', transactionRouter)
