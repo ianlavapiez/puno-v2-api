@@ -3,6 +3,7 @@
         "loggedout",
         "middlewares",
         "minlength",
-        "promisify"
+        "promisify",
+        "virtuals"
     ]
 }
