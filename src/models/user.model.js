@@ -16,7 +16,8 @@ const userSchema = new mongoose.Schema({
     required: [true, 'Please provide your birth date.'],
   },
   educationalBackground: typeString('Please select your educational background.'),
-  address: {},
+  address: typeString('Please provide your address.'),
+  farmAddress: String,
   email: {
     type: String,
     required: [true, 'Please provide your email address.'],
